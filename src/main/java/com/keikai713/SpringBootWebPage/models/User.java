@@ -3,7 +3,7 @@ package com.keikai713.SpringBootWebPage.models;
 public class User {
     private Long id;
     private String name;
-    private String lastname;
+    private String lastName;
     private String email;
     private String phone;
 
@@ -23,12 +23,12 @@ public class User {
         this.name = name;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getEmail() {
